@@ -1,0 +1,13 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"misc"},
+{"type":"table","name":"users","database":"misc","data":
+[
+{"id":"1","username":"Erik","vorname":"erik","name":"berndt","password":"Zwei46acht","total_score":"227","total_plays":"22","date":"Fri, 24.06.2022 8:24:59"},
+{"id":"2","username":"Maria","vorname":"maria","name":"blond","password":"Mb1","total_score":"220","total_plays":"24","date":"Sun, 26.06.2022 9:39:50"},
+{"id":"3","username":"Nicki","vorname":"Nicole","name":"Burbulla","password":"Nb1","total_score":"215","total_plays":"16","date":"Thu, 30.06.2022 0:12:26"},
+{"id":"4","username":"Tanja","vorname":"Tanja","name":"Schäffner","password":"Ts1","total_score":"222","total_plays":"16","date":"Thu, 30.06.2022 18:31:19"},
+{"id":"5","username":"Beata","vorname":"beata","name":"undine","password":"Bu1","total_score":"212","total_plays":"18","date":"Fri, 01.07.2022 0:05:38"}
+]
+}
+]

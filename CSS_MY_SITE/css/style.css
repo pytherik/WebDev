@@ -1,0 +1,150 @@
+body {
+	color: #40514e;
+	margin: 0;
+	text-align: center;
+	font-family: "Merriweather", serif;
+}
+
+h1 {
+	color: #7858A6;
+	margin: 3.15rem auto 0;  
+	font-family: "Sacramento", cursive;
+	font-size: 5.625em;
+}
+
+h2 {
+	color: #7858A6;
+	font-size: 2.5rem;
+	font-weight: 200;
+	font-family: "Montserrat", serif;
+	padding-bottom: 20px;
+}
+
+h3 {
+	color: #371B58;
+	font-weight: 700;
+	font-family: "Montserrat", serif;
+}
+
+.top-container {
+	height: 100vh;
+	position: relative;
+	background-color: #DBDFFD;
+	padding-top: 100px;
+}
+
+.top-container span {
+	text-decoration: underline;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 550px;
+	top: 370px;
+}
+
+.top-cloud {
+ 	position: absolute;
+	right: 480px;
+	top: 60px;
+}
+
+/* .mountain { */
+/* 	position: absolute; */
+/* 	top: 400px; */
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.profile {
+	width: 30%;
+	margin: 6.25em auto;
+}
+
+.profile img {
+	width: 25%;
+	padding-bottom: 20px;
+}
+
+.profile p {
+	text-align: center;
+	line-height: 2;
+}
+
+.profile h2 {
+	font-weight: 600;
+}
+
+.skill-pic1 {
+	float: left;
+	margin-right: 30px;
+	width: 25%;
+}
+
+.skill-pic2 {
+	float: right;
+	margin-left: 30px;
+	width: 25%;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 6.25rem auto;
+	text-align: left;
+	line-height: 2;
+	/* float: left; */
+}
+
+.skills h2 {
+	font-weight: 600;
+}
+
+
+.bottom-container {
+	padding: 20px 0;
+	background-color:#DBDFFD;
+}
+
+.contact-me  {
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+hr {
+	width: 5%;
+	border-top: 10px dotted #ddd;
+	margin-bottom: 80px;
+}
+
+.btn {
+	font-family: "Montserrat", cursive;
+	color: #fff;
+	text-decoration: none;
+	background-image: linear-gradient(#7858A6, #D8DFFD);
+	text-shadow: 2px 2px #888;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 8px;
+	width: 80px;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	background-image: linear-gradient(#D8DFFD,#7858A6);
+}
+
+.footer-link {
+	color: #7858A6;
+	text-decoration: none;
+	font-weight: 600;
+	margin: 0 30px;
+}
+
+.footer-link:hover {
+	color: #371B58;
+}
+

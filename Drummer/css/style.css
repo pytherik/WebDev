@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Abril Fatface";
+	background-color: #FFE5B4;
+}
+
+#title {
+	text-align: center;
+	font-size: 6rem;
+	letter-spacing: 10px;
+	margin: 100px 0;
+ 	color: #1F4690;
+}
+
+.set {
+	max-width: 1400px;
+	height: 40vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.drum {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border: 2px solid #ff6b17;
+	background-color: #ffe5b4;
+	text-align: center;
+	align-items: center;
+	font-size: 0;
+	font-weight: 200;
+	color: #570A57;
+	text-shadow: 4px 2px #fff;
+}
+
+.w {
+	background-image: url("../images/bass_150.png");
+
+}
+
+.a {
+	background-image: url("../images/snare_150.png");
+}
+
+.s {
+	background-image: url("../images/hi-hat_150.png");
+}
+
+.d {
+	background-image: url("../images/tom_150.png");
+}
+
+.j {
+	background-image: url("../images/ride_150.png");
+}
+
+.k {
+	background-image: url("../images/crash_150.png");
+}
+
+.l {
+	background-image: url("../images/tom_150.png");
+}
+
+.pos {
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pressed {
+	border: none;
+	background-size: 150%;
+	background-color: #fff;
+}
+

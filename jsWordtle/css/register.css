@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+background-color: #827397;
+	color: #E9D5DA;
+	font-family: "Poppins";
+}
+
+h2 {
+	font-size: 3rem;
+	margin: 20px 0 20px;
+}
+
+.container {
+	background-color: #4D4C7D;
+	max-width: 1000px;
+	height: 80vh;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-left: 30px;
+	display: flex;
+	/* flex-direction: column; */
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row-top {
+	display: flex;
+	justify-content: start;;
+	align-items: right;
+}
+
+label {
+	margin-top: 20px;
+	font-size: 1rem;
+	color: #c0c0c0;
+}
+
+label.log {
+	display: block;
+}
+
+.row input[type="text"],
+input[type="password"] {
+	font-size: 1.2rem;
+	background-color: transparent;
+	margin-top: 10px;
+	border: none;
+	color: #e9d5da;
+	border-bottom: 1px solid #e9d5da;
+	display: block;
+}
+
+.radio {
+	width: 20px;
+	height: 20px;
+	margin: 10px 10px 0;
+	background-color: #e9d5da;
+	accent-color: #4d4c7d;
+	accent-size: 4px;
+}
+
+.btn {
+	width: 250px;
+	height: 30px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #e9d5da;
+	background-color: transparent;
+	border: 1px solid #6d8874;
+  border-radius: 5px;	
+}
+
+.btn:hover {
+	color: #00FFAB;
+	border-color: #fff;
+}
+
+.hasAccount {
+	margin-top: 20px;
+	color: #00FFAB;
+}
+
+.hasAccount:hover {
+	cursor: pointer;
+}
+.errorMessage {
+	font-size: 0.7rem;
+	color: #ff8080; 
+}
